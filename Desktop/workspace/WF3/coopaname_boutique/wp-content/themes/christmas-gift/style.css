@@ -1,0 +1,101 @@
+/*
+Theme Name: Christmas Gift
+Theme URI: https://commercepremium.com/christmas-gift-wordpress-theme
+Author: Han
+Author URI: https://commercepremium.com
+Description: Christmas is a season of giving, the prime time of shopping every year. Christmas Gift is a responsive child theme using the parent theme Twenty Sixteen. This child theme supports WooCommerce out of the box. Christmas Gift theme will make your blog, site, or store look beautiful everywhere. Merry Christmas!
+Version: 1.0.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: holiday, one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+
+Template: twentysixteen
+
+(C) 2017 commercepremium.com
+
+*/
+html,
+body,
+button,
+input,
+select,
+textarea,
+.required {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+	font-family: 'Lato', sans-serif;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.post-password-form label,
+.main-navigation,
+.post-navigation,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+.site .skip-link,
+.logged-in .site .skip-link,
+.widget .widget-title,
+.widget_recent_entries .post-date,
+.widget_rss .rss-date,
+.widget_rss cite,
+.tagcloud a,
+.site-title,
+.entry-title,
+.entry-footer,
+.sticky-post,
+.page-title,
+.page-links,
+.comments-title,
+.comment-reply-title,
+.comment-metadata,
+.pingback .edit-link,
+.comment-reply-link,
+.comment-form label,
+.no-comments,
+.site-footer .site-title:after,
+.widecolumn label,
+.widecolumn .mu_register label {
+    font-family: 'Lato', sans-serif;
+} 
+
+
+.site {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.widget {
+    border: 2px solid;
+    padding: 20px;
+}
+
+@media screen and (min-width: 61.5625em) {
+	
+	.site {
+	    margin: 50px auto;
+	}
+
+	.site-header {
+	    padding: 2em 4.5455%;
+	}
+
+}

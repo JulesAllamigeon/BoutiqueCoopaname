@@ -1,0 +1,10 @@
+2019-09-03T12:02:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\wamp\www\coopaname_boutique\wp-content\plugins\email_seller.php:24
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-content\plugins\email_seller.php(75): send_seller_email(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): order_status_seller_notification(303, 'on-hold', 'processing', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\wamp\www\coopaname_boutique\wp-content\plugins\woocommerce\includes\class-wc-order.php(370): do_action('woocommerce_ord...', 303, 'on-hold', 'processing', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 C:\wamp\www\coopaname_boutique\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#6 C: dans C:\wamp\www\coopaname_boutique\wp-content\plugins\email_seller.php à la ligne 24
+

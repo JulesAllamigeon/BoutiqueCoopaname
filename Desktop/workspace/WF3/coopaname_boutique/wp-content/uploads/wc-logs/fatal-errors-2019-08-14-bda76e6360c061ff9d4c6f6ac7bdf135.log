@@ -1,0 +1,39 @@
+2019-08-14T08:51:29+00:00 CRITICAL require(): Failed opening required 'inc/class-storefront.php' (include_path='.;C:\php\pear') dans C:\wamp\www\coopaname_boutique\wp-content\themes\storefront_child_theme\functions.php à la ligne 32
+
+2019-08-14T14:00:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function esc_html_e(), 0 passed in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php on line 59 and at least 1 expected in C:\wamp\www\coopaname_boutique\wp-includes\l10n.php:321
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php(59): esc_html_e()
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_admin_registration_form('add-new-user')
+#2 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\wamp\www\coopaname_boutique\wp-admin\user-new.php(562): do_action('user_new_form', 'add-new-user')
+#5 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-includes\l10n.php à la ligne 321
+
+2019-08-14T15:06:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_user_meta() in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:95
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_show_extra_profile_fields(Object(WP_User))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-admin\user-edit.php(709): do_action('edit_user_profi...', Object(WP_User))
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 95
+
+2019-08-14T15:07:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_user_meta() in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:95
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_show_extra_profile_fields(Object(WP_User))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-admin\user-edit.php(709): do_action('edit_user_profi...', Object(WP_User))
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 95
+
+2019-08-14T15:07:47+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_user_meta() in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:95
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_show_extra_profile_fields(Object(WP_User))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-admin\user-edit.php(709): do_action('edit_user_profi...', Object(WP_User))
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 95
+

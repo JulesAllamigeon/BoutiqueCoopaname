@@ -1,0 +1,90 @@
+2019-08-19T09:14:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:38
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 38
+
+2019-08-19T09:17:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:38
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 38
+
+2019-08-19T09:17:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:38
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 38
+
+2019-08-19T10:02:54+00:00 CRITICAL Uncaught Error: Call to undefined function get_sub_field() in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:17
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_registration_form('')
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(840): do_action('register_form')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 17
+
+2019-08-19T10:05:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 3 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 286 and exactly 4 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:33
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_registration_errors(Object(WP_Error), 'toto', 'toto@gmail.com')
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 33
+
+2019-08-19T12:13:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:18
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): crf_registration_form('')
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(840): do_action('register_form')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 18
+
+2019-08-19T12:38:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:32
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 32
+
+2019-08-19T12:41:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:32
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 32
+
+2019-08-19T12:41:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:32
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 32
+
+2019-08-19T12:42:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function crf_registration_errors(), 1 passed in C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php:32
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(288): crf_registration_errors(Object(WP_Error))
+#1 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(208): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\user.php(2492): apply_filters('registration_er...', Object(WP_Error), 'toto', 'toto@gmail.com')
+#3 C:\wamp\www\coopaname_boutique\wp-login.php(806): register_new_user('toto', 'toto@gmail.com')
+#4 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\registration-fields.php à la ligne 32
+

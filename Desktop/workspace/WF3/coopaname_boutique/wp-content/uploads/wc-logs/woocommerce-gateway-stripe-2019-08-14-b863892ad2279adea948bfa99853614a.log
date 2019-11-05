@@ -1,0 +1,21 @@
+2019-08-14T09:07:38+00:00 DEBUG 
+====Stripe Version: 4.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2019-08-14T09:32:40+00:00 DEBUG 
+====Stripe Version: 4.2.3====
+====Start Log====
+Error: Impossible de vérifier la clé secrète manquante du domaine.
+====End Log====
+
+
+2019-08-14T09:34:11+00:00 DEBUG 
+====Stripe Version: 4.2.3====
+====Start Log====
+Error: Impossible de vérifier la clé secrète manquante du domaine.
+====End Log====
+
+

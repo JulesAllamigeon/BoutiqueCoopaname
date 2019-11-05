@@ -1,0 +1,24 @@
+2019-09-05T07:49:54+00:00 CRITICAL Uncaught Error: Call to a member function exists() on string in C:\wamp\www\coopaname_boutique\wp-content\plugins\get_current_user.php:15
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): wpdocs_check_logged_in('')
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-settings.php(525): do_action('init')
+#4 C:\wamp\www\coopaname_boutique\wp-config.php(90): require_once('C:\\wamp\\www\\coo...')
+#5 C:\wamp\www\coopaname_boutique\wp-load.php(37): require_once('C:\\wamp\\www\\coo...')
+#6 C:\wamp\www\coopaname_boutique\wp-cron.php(39): require_once('C:\\wamp\\www\\coo...')
+#7 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\get_current_user.php à la ligne 15
+
+2019-09-05T07:49:54+00:00 CRITICAL Uncaught Error: Call to a member function exists() on string in C:\wamp\www\coopaname_boutique\wp-content\plugins\get_current_user.php:15
+Stack trace:
+#0 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(286): wpdocs_check_logged_in('')
+#1 C:\wamp\www\coopaname_boutique\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp\www\coopaname_boutique\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\coopaname_boutique\wp-settings.php(525): do_action('init')
+#4 C:\wamp\www\coopaname_boutique\wp-config.php(90): require_once('C:\\wamp\\www\\coo...')
+#5 C:\wamp\www\coopaname_boutique\wp-load.php(37): require_once('C:\\wamp\\www\\coo...')
+#6 C:\wamp\www\coopaname_boutique\wp-admin\admin-ajax.php(22): require_once('C:\\wamp\\www\\coo...')
+#7 {main}
+  thrown dans C:\wamp\www\coopaname_boutique\wp-content\plugins\get_current_user.php à la ligne 15
+

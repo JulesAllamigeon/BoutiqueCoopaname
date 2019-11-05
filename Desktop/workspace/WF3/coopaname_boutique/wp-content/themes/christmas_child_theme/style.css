@@ -1,0 +1,115 @@
+/*
+			 Theme Name:   christmas_child_theme
+			 Theme URI:    https://woocommerce.com/storefront/
+			 Description:  christmas_child_theme
+			 Author:       Jules Allamigeon 
+			 Author URI:   http://example.com
+			 Template:     twentysixteen
+			 Version:      1.0.0
+			 License:      GNU General Public License v2 or later
+			 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+			 Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+			 Text Domain:  christmas_child_theme
+            */
+            
+@import url('../twentysixteen/style.css');
+
+@media screen and (min-width: 44.375em){
+	.site {
+		margin: 155px;
+	}
+}
+.page-title {
+	padding-bottom: 5px;
+}
+.woocommerce ul.products li.product a img {
+	padding-top:25px;
+}
+.entry-content ul {
+	margin-left: 0;
+    list-style-type: none;
+}
+.entry-content a {
+	box-shadow: none !important;
+	text-decoration: none;
+}
+.activity {
+	border: 2px solid red !important;
+}
+.livraison {
+	text-align: center;
+	background-color:pink;
+	border: 2px solid red;
+	padding:25px;
+	font-weight: bold;
+	color:black;
+}
+.woocommerce table {
+	table-layout: auto;
+}
+table.my_account_orders {
+	margin-left: 5px;
+}
+
+div.inscription {
+	border: medium groove black;
+	text-align: center;
+	text-decoration: none;
+	width: 275px;
+	justify-content: center;
+}
+.redirection_user_register {
+	margin: -20px;
+}
+.entry-summary > :last-child{
+	display: inline-grid;
+}
+.cart_totals {
+	float: left !important;
+	width: 55% !important;
+}
+.woocommerce-form{
+	width: 50% !important;
+}
+.woocommerce-loop-product__title {
+	color: black;
+}
+mark.order-number {
+	background-color: #D98880;
+}
+mark.order-date {
+	background-color: #58D68D;
+}
+ul.products li.product a {
+	color:white !important;
+	background-color: #EA5527    !important;
+}
+a.button.wc-forward {
+	color:white !important;
+	background-color: #EA5527    !important;
+}
+button.single_add_to_cart_button.button.alt {
+	color:white !important;
+	background-color: #EA5527    !important;		
+}
+.displayUsername {
+	color:white;
+	padding-top: 10px;
+	padding-bottom:10px;
+	background-color: #EA5527;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 15px;
+	
+}
+a.userIsNotLogged {
+	margin-left:80px;
+	padding:8px;
+	text-decoration: none !important;
+	font-size:125%;
+	text-align: center;
+	background-color: #EA5527;
+	font-weight: bold;
+	border-radius: 15px;
+	color:white;
+}
